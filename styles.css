@@ -1,0 +1,69 @@
+* {
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 500px;  
+}
+
+.calculator {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.output {
+    width: 100%;
+    color: white;
+    background-color: black;
+    height: 75px;
+    text-align: right;
+    padding:15px 5px;
+}
+
+.calc-buttons {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: stretch;
+}
+
+.num {
+    background-color: cornsilk;
+    width: 24.5%;
+}
+
+.func {
+    background-color: darkgoldenrod;
+    flex: 1;
+}
+
+.back {
+    width: 24.5%
+}
+
+.clear {
+    background-color: darkgrey;
+    width: 48.5%;
+}
+
+.num:hover {
+    background-color: lightskyblue;
+}
+
+.func:hover {
+    background-color: goldenrod;
+}
+
+.clear:hover {
+    background-color: lightslategray;
+}
+
+.block {
+    width: 73.5%;
+}
+
+button {
+    height: 75px;
+    cursor: pointer;
+}
